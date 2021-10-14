@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Watermark
 //
-//  Created by 鈴木 智也 on 2021/10/14.
+//  Created by とむエナ on 2021/10/14.
 //
 
 import UIKit
