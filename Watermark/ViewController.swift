@@ -29,7 +29,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
 
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let nextView = storyboard.instantiateViewController(withIdentifier: "Photo") as! PhotoViewController
-        nextView.image = image
+        nextView.BackImage = image
 
         self.dismiss(animated: false)
         present(nextView, animated: true, completion: nil)
